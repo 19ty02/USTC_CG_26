@@ -13,33 +13,9 @@ Package your work as follows:
 
 ```
 ID_Name_homework8/
-├── report.pdf                  # Experiment report (PDF only)
-└── code/                       # Modified code framework (delete checkpoints)
-    ├── local_renderformer/
-    │   ├── __init__.py
-    │   ├── compat_einops.py
-    │   ├── hub.py
-    │   ├── encodings/
-    │   │   ├── __init__.py
-    │   │   ├── nerf_encoding.py
-    │   │   └── rope.py
-    │   ├── layers/
-    │   │   ├── __init__.py
-    │   │   ├── attention.py        # ← TODO: RoPE(×2), SDPA, Self-Attn, Cross-Attn
-    │   │   └── dpt.py
-    │   └── models/
-    │       ├── __init__.py
-    │       ├── config.py
-    │       ├── renderformer.py      # ← TODO: Triangle Embedding
-    │       └── view_transformer.py  # ← TODO: Ray Bundle Embedding
-    ├── baseline_model.py
-    ├── baseline_data.py
-    ├── baseline_loss.py
-    ├── train_course_baseline.py
-    ├── requirements.txt
-    ├── requirements-cpu.txt
-    ├── DOCUMENT/                   # ← Included for reference
-    └── datasets/                   # ← Include only if you created new data
+├── report.pdf          
+├── code/              
+└── ai_record 
 ```
 
 > Important: Remove all `.pt` checkpoint files before submission.
@@ -80,4 +56,4 @@ This assignment **encourages** the use of AI-assisted coding tools. However:
 - You are responsible for understanding every line of code you submit.
 - The report must include your analysis of AI-generated code (correctness, quality, modifications).
 - Blindly accepting AI output without understanding is not sufficient.
-- The "traps" built into the `HW8_TODO` markers are designed to test your understanding — make sure you can explain why your implementation works.
+- The "traps" built into the `HW8_TODO` markers are designed to test your understanding — make sure you can explain why your implementation works😋.
